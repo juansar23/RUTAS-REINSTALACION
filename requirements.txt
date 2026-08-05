@@ -3,3 +3,4 @@ pandas
 PyMuPDF
 fpdf2
 xlsxwriter
+openpyxl
