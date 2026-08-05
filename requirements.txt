@@ -1,6 +1,7 @@
-streamlit
+streamlit==1.49.1
 pandas
 PyMuPDF
 fpdf2
 xlsxwriter
 openpyxl
+starlette==0.46.2
