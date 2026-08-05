@@ -1,8 +1,5 @@
 streamlit
 pandas
-pymupdf
-openpyxl
+PyMuPDF
+fpdf2
 xlsxwriter
-fpdf
-plotly
-numpy
