@@ -731,7 +731,7 @@ def crear_pdf_lista_final(df, tecnico, col_map):
             pdf.cell(w, 7, val_e, 1, 0, 'L')
         pdf.ln()
         
-    return pdf.output(dest='S').encode('latin-1')
+    return bytes(pdf.output())
 
 # =======================================================================================
 # SECCIÓN 6: BARRA LATERAL, PERFILES Y ASISTENCIA
